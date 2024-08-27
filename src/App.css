@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.pad{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.topnav {
+    overflow: hidden;
+    padding: 5px;
+    background-color: #e9e9e9;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Style the links inside the navigation bar */
+  /* .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
-}
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  } */
+  
+  /* Style the search box inside the navigation bar */
+  /* .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  } */
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  /* @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  } */

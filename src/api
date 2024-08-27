@@ -1,0 +1,15 @@
+//API Endpoint: https://restcountries.com/v3.1/all
+//Description: Provides information about countries including their name, population, currencies, languages, and more.
+// const [name, setName]=useState("");
+//   const changeHandler = e => {
+//     setName(e.target.value);
+//   };
+//   const submitHandler = e => {
+//     e.preventDefault();
+//     console.log(name);
+//   }
+
+<!-- /* <form onSubmit={submitHandler}>
+          <input type='text' value={name} onChange={changeHandler}></input><br /><br />
+          <input type='submit' name='Search'></input>
+        </form> */ -->
